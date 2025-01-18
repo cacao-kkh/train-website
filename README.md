@@ -1,2 +1,2 @@
-# train-website
-Just to learn web dev ^^
+Small website just to learn web dev ^^
+Suggestions or issues? Let me know!
