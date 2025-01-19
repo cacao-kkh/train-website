@@ -19,71 +19,17 @@ h1{
     border: 4px solid;
     border-image: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
     border-image-slice: 1;
-    animation: borderAnimation 2s infinite;
+    animation: borderAnimation 2s infinite linear;
 }
 
 @keyframes borderAnimation {
     0% {
-        border-image-source: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
-    }
-    5% {
-        border-image-source: linear-gradient(45deg, orange, yellow, green, cyan, blue, red);
-    }
-    10% {
-        border-image-source: linear-gradient(45deg, yellow, cyan, green, blue, red, magenta);
-    }
-    15% {
-        border-image-source: linear-gradient(45deg, green, cyan, red, yellow, blue, magenta);
-    }
-    20% {
-        border-image-source: linear-gradient(45deg, cyan, green, red, yellow, blue, magenta);
-    }
-    25% {
-        border-image-source: linear-gradient(45deg, blue, yellow, cyan, green, red, magenta);
-    }
-    30% {
-        border-image-source: linear-gradient(45deg, magenta, green, yellow, cyan, red, blue);
-    }
-    35% {
-        border-image-source: linear-gradient(45deg, red, green, cyan, blue, yellow, magenta);
-    }
-    40% {
-        border-image-source: linear-gradient(45deg, yellow, cyan, red, green, blue, magenta);
-    }
-    45% {
-        border-image-source: linear-gradient(45deg, cyan, blue, red, yellow, green, magenta);
+        border-image-source: linear-gradient(45deg, red, yellow);
     }
     50% {
-        border-image-source: linear-gradient(45deg, green, blue, red, yellow, cyan, magenta);
-    }
-    55% {
-        border-image-source: linear-gradient(45deg, blue, green, cyan, yellow, magenta, red);
-    }
-    60% {
-        border-image-source: linear-gradient(45deg, magenta, cyan, red, yellow, blue, green);
-    }
-    65% {
-        border-image-source: linear-gradient(45deg, red, blue, green, yellow, magenta, cyan);
-    }
-    70% {
-        border-image-source: linear-gradient(45deg, yellow, magenta, red, green, cyan, blue);
-    }
-    75% {
-        border-image-source: linear-gradient(45deg, cyan, green, yellow, blue, magenta, red);
-    }
-    80% {
-        border-image-source: linear-gradient(45deg, green, yellow, cyan, red, blue, magenta);
-    }
-    85% {
-        border-image-source: linear-gradient(45deg, blue, red, yellow, cyan, magenta, green);
-    }
-    90% {
-        border-image-source: linear-gradient(45deg, magenta, yellow, red, cyan, blue, green);
-    }
-    95% {
-        border-image-source: linear-gradient(45deg, red, cyan, green, yellow, blue, magenta);
+        border-image-source: linear-gradient(45deg, green, blue);
     }
     100% {
-        border-image-source: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
+        border-image-source: linear-gradient(45deg, red, yellow);
     }
 }
