@@ -9,11 +9,27 @@ body{
 h1{
         font-size: 32px;/ligne 5/
 }
-.immatriculation {
-    /*width: 100%;*/
-    max-width: 100%;
+
+.immatriculation{
+    width: 60%;
+    max-width: 100%; 
     height: auto;
-    margin: 0 auto;
-    border: 2px solid black; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 0 auto;        /* Centre img */
+    border: 4px solid;
+    border-image: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
+    border-image-slice: 1;
+    animation: borderAnimation 3s infinite;
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-image-source: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
+    }
+    50% {
+        border-image-source: linear-gradient(45deg, blue, magenta, red, yellow, green, cyan);
+    }
+    100% {
+        border-image-source: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
+    }
 }
