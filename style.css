@@ -19,7 +19,7 @@ h1{
     border: 4px solid;
     border-image: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
     border-image-slice: 1;
-    animation: borderAnimation 5s infinite linear;
+    animation: borderAnimation 15s infinite linear;
 }
 
 @keyframes borderAnimation {
