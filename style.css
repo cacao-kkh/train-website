@@ -9,4 +9,11 @@ body{
 h1{
         font-size: 32px;/ligne 5/
 }
-
+.immatriculation {
+    width: 120%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid black; /* Ajoute une bordure autour de l'image (facultatif) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
