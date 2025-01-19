@@ -11,19 +11,21 @@ h1{
     font-weight: bold;
 }
 
-.immatriculation{
+.immatriculation {
+    width: 300px;
     max-width: 100%; 
     height: auto;
     display: block;
-   /* margin: 0 auto; */       /* Centre img */
-    border: 4px solid;
-    border-image: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
-    border-image-slice: 1;
+    border: none; /* Pas de bordure par défaut */
 }
 
 .immatriculation:hover {
-    animation: borderAnimation 8s infinite linear;
+    border: 4px solid;
+    border-image: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
+    border-image-slice: 1;
+    animation: borderAnimation 4s infinite linear;
 }
+
 
 @keyframes borderAnimation {
     0% {
