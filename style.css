@@ -16,12 +16,12 @@ h1{
     max-width: 100%; 
     height: auto;
     display: block;
-    border: 2px solid transparent; /* Réserve l'espace pour la bordure, invisible par défaut */
+    border: 3px solid transparent; /* Réserve l'espace pour la bordure, invisible par défaut */
     border-image: linear-gradient(45deg, aqua, aqua) 1; /* Fixe en aqua par défaut */
 }
 
 .immatriculation:hover {
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
     border-image-slice: 1;
     animation: borderAnimation 1.5s infinite linear;
