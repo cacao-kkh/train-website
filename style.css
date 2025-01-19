@@ -7,7 +7,8 @@ body{
     color: black;
 }
 h1{
-        font-size: 32px;/ligne 5/
+    font-size: 48px;/ligne 5/
+    font-weight: bold;
 }
 
 .immatriculation{
@@ -19,7 +20,7 @@ h1{
     border: 4px solid;
     border-image: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta);
     border-image-slice: 1;
-    animation: borderAnimation 3s infinite;
+    animation: borderAnimation 0.1s infinite;
 }
 
 @keyframes borderAnimation {
