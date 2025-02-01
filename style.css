@@ -1,15 +1,9 @@
 body{
-    background-color: aqua;/ligne 2/
-    font-family: "OpenSans", sans-serif;
-    padding: 5px 25px;
-    font-size: 18px;/ligne 5/
-    margin: 0;
+    font-family: "Calibri", sans-serif;
+    font-size: 18px;
     color: black;
 }
 h1{
     font-size: 64px;/ligne 5/
     font-weight: bold;
-}
-.box{
-    background-color: yellow
 }
