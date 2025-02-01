@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     transform: translateY(-200px);
+    margin-top: -200px;
 }
 
 h1 {
