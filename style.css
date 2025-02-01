@@ -13,10 +13,10 @@ body {
 
 .title {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     transform: translateY(-200px);
-    text-align: center;
 }
 
 h1 {
