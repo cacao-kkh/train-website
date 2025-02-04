@@ -19,37 +19,19 @@ h1 {
     color: #e9e9e9;
     font-size: 96px;
     font-weight: bolder;
-}
-
-.title {
-    text-align: center;
+	text-align: center;
 }
 
 .fade-in {
-	-webkit-animation-name: fadeInOpacity;
-	        animation-name: fadeInOpacity;
-	-webkit-animation-iteration-count: 1;
-	        animation-iteration-count: 1;
-	-webkit-animation-timing-function: ease-in;
-	        animation-timing-function: ease-in;
-	-webkit-animation-duration: 2s;
-	        animation-duration: 2s;
-}
-
-@-webkit-keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+	animation: fadeInOpacity 1.6s ease-in 1;
 }
 
 @keyframes fadeInOpacity {
 	0% {
-		opacity: 0;
+		opacity: 0.1;
 	}
 	100% {
 		opacity: 1;
 	}
 }
+
