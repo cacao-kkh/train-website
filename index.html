@@ -20,12 +20,20 @@
     </head>
     <body>
         <header class="container fade-in">
-            <h1>The one</h1>
+            <h1 onmouseover="flee(this);">The one</h1>
             <h2>
                 Best ever 
                 <a href="https://discord.com/channels/@me" id="ds_link" target="_blank" class="effect-underline"><span style="color: #7289da;">Discord</span></a>
                 bot
             </h2>
         </header>
+        <script>
+            function flee(element) {
+                element.style.position = 'absolute';
+                element.style.left = Math.random() * (document.documentElement.clientWidth - element.offsetWidth) + 'px';
+                element.style.top = Math.random() * (document.documentElement.clientHeight - element.offsetHeight) + 'px';
+            }
+        </script>
+    </script>
     </body>
 </html>
